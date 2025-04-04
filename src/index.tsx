@@ -46,7 +46,22 @@
 
             styles:[`{ width: 50, height: 50, backgroundColor: "#fff" }`],
 
-            functions:[()=>{}],            childrenItems:[() =><></>],
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            `Teste 01`
+          ],
+
+          args,
+
+        }}/>],
 
             args,
           }}/>
