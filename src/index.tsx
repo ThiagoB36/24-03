@@ -81,7 +81,7 @@
  arrFunctions: [async (...args) =>
         functions.setVar({ args, pass:{
           keyPath: ['example.A1.lists.iptsChanges.name'],
-          value: [Number(1+1)]
+          value: [Number(1+12)]
         }})]
  , trigger: 'on init'
 }})],            childrenItems:[() =><></>],
