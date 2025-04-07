@@ -81,8 +81,8 @@
  arrFunctions: [async (...args) =>
         functions.setVar({ args, pass:{
           keyPath: ['example.A1.lists.iptsChanges.name'],
-          value: [const soma1 = 1
-const soma2 = 2
+          value: [soma1 = 1
+soma2 = 2
 
 soma1+soma2]
         }})]
