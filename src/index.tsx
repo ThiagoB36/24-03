@@ -76,18 +76,7 @@
               }
               ],
 
-            functions:[async (...args) =>
- functions.funcGroup({ args, pass:{
- arrFunctions: [async (...args) =>
-        functions.setVar({ args, pass:{
-          keyPath: ['example.A1.lists.iptsChanges.name'],
-          value: [soma1 = 1
-soma2 = 2
-
-soma1+soma2]
-        }})]
- , trigger: 'on init'
-}})],            childrenItems:[() =><></>],
+            functions:[()=>{}],            childrenItems:[() =><></>],
 
             args,
           }}/>
